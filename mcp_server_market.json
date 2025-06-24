@@ -48,7 +48,7 @@
                 "postgresql://localhost/mydb"
             ]
         },
-        "Turkiye-Yargi-MCP": {
+        "Turkiye-Legal-MCP": {
             "command": "uvx",
             "args": [
                 "--from",
