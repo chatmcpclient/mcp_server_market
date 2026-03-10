@@ -48,6 +48,13 @@
                 "postgresql://localhost/mydb"
             ]
         },
+        "seedflip": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "seedflip-mcp"
+            ]
+        },
         "Turkiye-Legal-MCP": {
             "command": "uvx",
             "args": [
