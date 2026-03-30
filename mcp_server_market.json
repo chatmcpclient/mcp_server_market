@@ -55,7 +55,20 @@
                 "git+https://github.com/saidsurucu/yargi-mcp",
                 "yargi-mcp"
             ],
-            "env": {"key": "yargimcp"}
+            "env": {
+                "key": "yargimcp"
+            }
+        },
+        "dadata": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@metarebalance/dadata-mcp"
+            ],
+            "env": {
+                "DADATA_API_KEY": "<YOUR_TOKEN>",
+                "DADATA_SECRET_KEY": "<YOUR_SECRET>"
+            }
         }
     }
 }
