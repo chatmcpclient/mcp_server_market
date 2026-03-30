@@ -55,7 +55,87 @@
                 "git+https://github.com/saidsurucu/yargi-mcp",
                 "yargi-mcp"
             ],
-            "env": {"key": "yargimcp"}
+            "env": {
+                "key": "yargimcp"
+            }
+        },
+        "tkassa": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/tkassa-mcp"
+            ],
+            "env": {
+                "TKASSA_TERMINAL_KEY": "<KEY>",
+                "TKASSA_PASSWORD": "<PASSWORD>"
+            }
+        },
+        "robokassa": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/robokassa-mcp"
+            ],
+            "env": {
+                "ROBOKASSA_LOGIN": "<LOGIN>",
+                "ROBOKASSA_PASSWORD1": "<P1>",
+                "ROBOKASSA_PASSWORD2": "<P2>"
+            }
+        },
+        "cloudpayments": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/cloudpayments-mcp"
+            ],
+            "env": {
+                "CLOUDPAYMENTS_PUBLIC_ID": "<ID>",
+                "CLOUDPAYMENTS_API_SECRET": "<SECRET>"
+            }
+        },
+        "hh": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/hh-mcp"
+            ]
+        },
+        "superjob": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/superjob-mcp"
+            ],
+            "env": {
+                "SUPERJOB_API_KEY": "<KEY>"
+            }
+        },
+        "huntflow": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/huntflow-mcp"
+            ],
+            "env": {
+                "HUNTFLOW_TOKEN": "<TOKEN>"
+            }
+        },
+        "kontur-focus": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/kontur-focus-mcp"
+            ],
+            "env": {
+                "KONTUR_FOCUS_API_KEY": "<KEY>"
+            }
+        },
+        "chestnyznak": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/chestnyznak-mcp"
+            ]
         }
     }
 }
