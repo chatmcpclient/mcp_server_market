@@ -55,7 +55,431 @@
                 "git+https://github.com/saidsurucu/yargi-mcp",
                 "yargi-mcp"
             ],
-            "env": {"key": "yargimcp"}
+            "env": {
+                "key": "yargimcp"
+            }
+        },
+        "wildberries": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/wildberries-mcp"
+            ],
+            "env": {
+                "WILDBERRIES_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "yandex-direct": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/yandex-direct-mcp"
+            ],
+            "env": {
+                "YANDEX_DIRECT_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "vk": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/vk-mcp"
+            ],
+            "env": {
+                "VK_ACCESS_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "gigachat": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/gigachat-mcp"
+            ],
+            "env": {
+                "GIGACHAT_AUTH_KEY": "<YOUR_AUTH_KEY>"
+            }
+        },
+        "yandexgpt": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/yandexgpt-mcp"
+            ],
+            "env": {
+                "YANDEX_API_KEY": "<YOUR_API_KEY>",
+                "YANDEX_FOLDER_ID": "<YOUR_FOLDER_ID>"
+            }
+        },
+        "yandex-market": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/yandex-market-mcp"
+            ],
+            "env": {
+                "YANDEX_MARKET_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "getcourse": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/getcourse-mcp"
+            ],
+            "env": {
+                "GETCOURSE_DOMAIN": "<YOUR_DOMAIN>.getcourse.ru",
+                "GETCOURSE_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "retailcrm": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/retailcrm-mcp"
+            ],
+            "env": {
+                "RETAILCRM_URL": "<YOUR_RETAILCRM_URL>",
+                "RETAILCRM_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "mts-exolve": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/mts-exolve-mcp"
+            ],
+            "env": {
+                "MTS_EXOLVE_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "sms-ru": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/sms-ru-mcp"
+            ],
+            "env": {
+                "SMS_RU_API_ID": "<YOUR_API_ID>"
+            }
+        },
+        "sendpulse": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/sendpulse-mcp"
+            ],
+            "env": {
+                "SENDPULSE_ID": "<YOUR_ID>",
+                "SENDPULSE_SECRET": "<YOUR_SECRET>"
+            }
+        },
+        "yandex-webmaster": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/yandex-webmaster-mcp"
+            ],
+            "env": {
+                "YANDEX_WEBMASTER_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "kaiten": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/kaiten-mcp"
+            ],
+            "env": {
+                "KAITEN_DOMAIN": "<YOUR_DOMAIN>",
+                "KAITEN_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "salutespeech": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/salutespeech-mcp"
+            ],
+            "env": {
+                "SALUTE_AUTH_KEY": "<YOUR_AUTH_KEY>"
+            }
+        },
+        "yandex-speechkit": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/yandex-speechkit-mcp"
+            ],
+            "env": {
+                "YANDEX_API_KEY": "<YOUR_API_KEY>",
+                "YANDEX_FOLDER_ID": "<YOUR_FOLDER_ID>"
+            }
+        },
+        "travelpayouts": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/travelpayouts-mcp"
+            ],
+            "env": {
+                "TRAVELPAYOUTS_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "kaspi": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/kaspi-mcp"
+            ],
+            "env": {
+                "KASPI_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "boxberry": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/boxberry-mcp"
+            ],
+            "env": {
+                "BOXBERRY_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "dellin": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/delovye-linii-mcp"
+            ],
+            "env": {
+                "DELLIN_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "sber": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/sber-mcp"
+            ],
+            "env": {
+                "SBER_ACCESS_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "bitrix24": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/bitrix24-mcp"
+            ],
+            "env": {
+                "BITRIX24_WEBHOOK_URL": "<YOUR_WEBHOOK_URL>"
+            }
+        },
+        "voximplant": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/voximplant-mcp"
+            ],
+            "env": {
+                "VOXIMPLANT_ACCOUNT_ID": "<YOUR_ACCOUNT_ID>",
+                "VOXIMPLANT_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "insales": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/insales-mcp"
+            ],
+            "env": {
+                "INSALES_API_KEY": "<YOUR_API_KEY>",
+                "INSALES_DOMAIN": "<YOUR_DOMAIN>.myinsales.ru"
+            }
+        },
+        "megaplan": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/megaplan-mcp"
+            ],
+            "env": {
+                "MEGAPLAN_DOMAIN": "<YOUR_DOMAIN>",
+                "MEGAPLAN_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "planfix": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/planfix-mcp"
+            ],
+            "env": {
+                "PLANFIX_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "elma365": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/elma365-mcp"
+            ],
+            "env": {
+                "ELMA365_DOMAIN": "<YOUR_DOMAIN>",
+                "ELMA365_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "tilda": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/tilda-mcp"
+            ],
+            "env": {
+                "TILDA_PUBLIC_KEY": "<YOUR_PUBLIC_KEY>",
+                "TILDA_SECRET_KEY": "<YOUR_SECRET_KEY>"
+            }
+        },
+        "jivosite": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/jivosite-mcp"
+            ],
+            "env": {
+                "JIVOSITE_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "mindbox": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/mindbox-mcp"
+            ],
+            "env": {
+                "MINDBOX_SECRET_KEY": "<YOUR_SECRET_KEY>",
+                "MINDBOX_ENDPOINT_ID": "<YOUR_ENDPOINT_ID>"
+            }
+        },
+        "roistat": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/roistat-mcp"
+            ],
+            "env": {
+                "ROISTAT_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "calltouch": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/calltouch-mcp"
+            ],
+            "env": {
+                "CALLTOUCH_TOKEN": "<YOUR_TOKEN>",
+                "CALLTOUCH_SITE_ID": "<YOUR_SITE_ID>"
+            }
+        },
+        "mango-office": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/mango-office-mcp"
+            ],
+            "env": {
+                "MANGO_API_KEY": "<YOUR_API_KEY>",
+                "MANGO_API_SALT": "<YOUR_API_SALT>"
+            }
+        },
+        "1c-rest": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/1c-rest-mcp"
+            ],
+            "env": {
+                "1C_BASE_URL": "<YOUR_1C_URL>",
+                "1C_LOGIN": "<YOUR_LOGIN>",
+                "1C_PASSWORD": "<YOUR_PASSWORD>"
+            }
+        },
+        "pochta-russia": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/pochta-russia-mcp"
+            ],
+            "env": {
+                "POCHTA_LOGIN": "<YOUR_LOGIN>",
+                "POCHTA_PASSWORD": "<YOUR_PASSWORD>",
+                "POCHTA_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "ozon": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/ozon-mcp"
+            ],
+            "env": {
+                "OZON_CLIENT_ID": "<YOUR_CLIENT_ID>",
+                "OZON_API_KEY": "<YOUR_API_KEY>"
+            }
+        },
+        "moysklad": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/moysklad-mcp"
+            ],
+            "env": {
+                "MOYSKLAD_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "cdek": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/cdek-mcp"
+            ],
+            "env": {
+                "CDEK_CLIENT_ID": "<YOUR_CLIENT_ID>",
+                "CDEK_CLIENT_SECRET": "<YOUR_CLIENT_SECRET>",
+                "CDEK_SANDBOX": "true"
+            }
+        },
+        "amocrm": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/amocrm-mcp"
+            ],
+            "env": {
+                "AMOCRM_DOMAIN": "<YOUR_DOMAIN>",
+                "AMOCRM_ACCESS_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "yandex-metrika": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/yandex-metrika-mcp"
+            ],
+            "env": {
+                "YANDEX_METRIKA_TOKEN": "<YOUR_TOKEN>"
+            }
+        },
+        "unisender": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@theyahia/unisender-mcp"
+            ],
+            "env": {
+                "UNISENDER_API_KEY": "<YOUR_API_KEY>"
+            }
         }
     }
 }
