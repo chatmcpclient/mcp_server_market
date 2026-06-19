@@ -48,6 +48,13 @@
                 "postgresql://localhost/mydb"
             ]
         },
+        "ppxc-find-customers": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "ppxc-leads-mcp"
+            ]
+        },
         "Turkiye-Legal-MCP": {
             "command": "uvx",
             "args": [

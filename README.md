@@ -72,6 +72,7 @@ The current mcp_server_market.json includes the following servers:
 * **git**: Interacts with a Git repository.
 * **github**: Connects to GitHub repositories (requires a personal access token).
 * **postgres**: Connects to a PostgreSQL database.
+* **ppxc-find-customers**: Turns short-video comments into customer leads, keyword ideas, lead intent review, and outreach scripts.
 * **Turkiye-Legal-MCP**: A custom MCP server for legal data, hosted at git+https://github.com/saidsurucu/yargi-mcp.
 
 ## Contributing
