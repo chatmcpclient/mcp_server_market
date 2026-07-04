@@ -56,6 +56,9 @@
                 "yargi-mcp"
             ],
             "env": {"key": "yargimcp"}
+        },
+        "most-recommended-books": {
+            "url": "https://mostrecommendedbooks.com/api/mcp"
         }
     }
 }
