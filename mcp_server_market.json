@@ -56,6 +56,14 @@
                 "yargi-mcp"
             ],
             "env": {"key": "yargimcp"}
+        },
+        "yolfi-payments": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@yolfi/agent",
+                "mcp"
+            ]
         }
     }
 }
