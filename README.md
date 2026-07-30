@@ -22,10 +22,12 @@ Necessary credentials or access tokens for servers that require authentication (
 ### Using the MCP Server Market
 
 Clone or Download the Repository:
+
+```sh
 git clone https://github.com/chatmcpclient/mcp_server_market.git
+```
 
-
-Access the JSON Configuration:The mcp_server_market.json file contains a list of available MCP servers with their respective configurations. The chatmcp application automatically parses this file to connect to the specified servers.
+Access the JSON Configuration: The mcp_server_market.json file contains a list of available MCP servers with their respective configurations. The chatmcp application automatically parses this file to connect to the specified servers.
 
 ### Integrate with chatmcp:
 
@@ -34,9 +36,11 @@ Configure chatmcp to point to the JSON file or include it in your project direct
 The chatmcp application will use the JSON to display and connect to available MCP servers.
 
 
-Run an MCP Server:Each server in the mcp_server_market.json file specifies a command, args, and optional env variables. For example, to run the sqlite MCP server:
-uvx mcp-server-sqlite --db-path /path/to/test.db
+Run an MCP Server: Each server in the mcp_server_market.json file specifies a command, args, and optional env variables. For example, to run the sqlite MCP server:
 
+```sh
+uvx mcp-server-sqlite --db-path /path/to/test.db
+```
 
 
 ## JSON Configuration
@@ -66,13 +70,16 @@ Example entry:
 ## Available MCP Servers
 The current mcp_server_market.json includes the following servers:
 
-* **sqlite***: Connects to an SQLite database.
+* **sqlite**: Connects to a SQLite database.
 * **fetch**: A basic fetch-based MCP server.
 * **filesystem**: Accesses local filesystem data.
 * **git**: Interacts with a Git repository.
 * **github**: Connects to GitHub repositories (requires a personal access token).
 * **postgres**: Connects to a PostgreSQL database.
 * **Turkiye-Legal-MCP**: A custom MCP server for legal data, hosted at git+https://github.com/saidsurucu/yargi-mcp.
+* **xquik**: Connects to Xquik's remote Streamable HTTP server through OAuth 2.1. Provides read-first access to X data through 2 MCP tools. See the [Xquik MCP documentation](https://docs.xquik.com/mcp/overview).
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 ## Contributing
 We welcome contributions to the MCP Server Market! To add your own MCP server:
