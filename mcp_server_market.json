@@ -64,6 +64,16 @@
                 "@yolfi/agent",
                 "mcp"
             ]
+        },
+        "xquik": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote@0.1.38",
+                "https://xquik.com/mcp",
+                "--transport",
+                "http-only"
+            ]
         }
     }
 }
