@@ -64,6 +64,16 @@
                 "@yolfi/agent",
                 "mcp"
             ]
+        },
+        "unified-ai-system": {
+            "type": "stdio",
+            "command": "docker",
+            "args": [
+                "run",
+                "--rm",
+                "-i",
+                "ghcr.io/happy520ai/unified-ai-system/mcp-server:0.3.2"
+            ]
         }
     }
 }
