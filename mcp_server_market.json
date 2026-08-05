@@ -48,6 +48,24 @@
                 "postgresql://localhost/mydb"
             ]
         },
+        "outagedeck": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote@0.1.38",
+                "https://outagedeck.com/api/mcp",
+                "--ignore-tool",
+                "list_custom_providers",
+                "--ignore-tool",
+                "add_custom_provider",
+                "--ignore-tool",
+                "update_custom_provider",
+                "--ignore-tool",
+                "remove_custom_provider",
+                "--ignore-tool",
+                "watch_provider"
+            ]
+        },
         "Turkiye-Legal-MCP": {
             "command": "uvx",
             "args": [
