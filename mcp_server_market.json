@@ -64,6 +64,11 @@
                 "@yolfi/agent",
                 "mcp"
             ]
+        },
+        "skyaccess": {
+            "type": "streamable",
+            "command": "https://mcp.skyaccess.com/mcp",
+            "args": []
         }
     }
 }
