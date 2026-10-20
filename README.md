@@ -71,6 +71,7 @@ The current mcp_server_market.json includes the following servers:
 * **filesystem**: Accesses local filesystem data.
 * **git**: Interacts with a Git repository.
 * **github**: Connects to GitHub repositories (requires a personal access token).
+* **dreamtune**: Model APIs, tools, GPU compute and run inspection through the published Dreamtune stdio server. Requires Node.js 22.20+ and a Dreamtune workspace API key; see [setup instructions](docs/dreamtune.md).
 * **postgres**: Connects to a PostgreSQL database.
 * **Turkiye-Legal-MCP**: A custom MCP server for legal data, hosted at git+https://github.com/saidsurucu/yargi-mcp.
 
