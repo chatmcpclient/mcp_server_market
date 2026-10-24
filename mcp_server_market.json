@@ -64,6 +64,7 @@
                 "@yolfi/agent",
                 "mcp"
             ]
-        }
+        },
+        "imagekit": {"command": "/Applications/ImageKit.app/Contents/Helpers/imagekit", "args": ["mcp"]
     }
 }
